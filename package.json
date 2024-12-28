@@ -22,13 +22,17 @@
   "author": "Abhishek Triapthi",
   "license": "ISC",
   "peerDependencies": {
-    "react": ">=16.8.0",
     "formik": "^2.4.6",
+    "react": ">=16.8.0",
     "yup": "^1.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",
     "@babel/core": "^7.26.0",
-    "@babel/preset-react": "^7.26.3"
+    "@babel/preset-react": "^7.26.3",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "string-captcha": "^1.0.3"
   }
 }
