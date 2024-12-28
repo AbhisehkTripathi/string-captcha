@@ -1,12 +1,15 @@
 {
   "name": "@types/string-captcha",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": " React-based string CAPTCHA component for form validation.",
   "main": "index.js",
   "types": "types/string-captcha.d.ts",
   "scripts": {
     "build": "babel src --out-dir lib --presets @babel/preset-react",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "string-captcha",
