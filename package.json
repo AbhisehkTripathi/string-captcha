@@ -1,8 +1,9 @@
 {
-  "name": "string-captcha",
-  "version": "1.0.4",
+  "name": "@types/string-captcha",
+  "version": "1.0.6",
   "description": " React-based string CAPTCHA component for form validation.",
   "main": "index.js",
+  "types": "types/string-captcha.d.ts",
   "scripts": {
     "build": "babel src --out-dir lib --presets @babel/preset-react",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -34,5 +35,8 @@
   },
   "dependencies": {
     "string-captcha": "^1.0.3"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
