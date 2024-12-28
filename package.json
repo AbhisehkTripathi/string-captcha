@@ -1,6 +1,6 @@
 {
   "name": "@types/string-captcha",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": " React-based string CAPTCHA component for form validation.",
   "main": "index.js",
   "types": "types/string-captcha.d.ts",
