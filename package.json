@@ -1,0 +1,34 @@
+{
+  "name": "string-captcha",
+  "version": "1.0.3",
+  "description": " React-based string CAPTCHA component for form validation.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --presets @babel/preset-react",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "string-captcha",
+    "react",
+    "form",
+    "validation",
+    "captcha",
+    "form-validation",
+    "react-form-validation",
+    "react-formik-yup",
+    "react-formik-yup-captcha",
+    "react-formik-yup-captcha-example"
+  ],
+  "author": "Abhishek Triapthi",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "formik": "^2.4.6",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-react": "^7.26.3"
+  }
+}
